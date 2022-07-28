@@ -21,3 +21,11 @@ class BaseDuck: NSObject {
         print("-- Fly")
     }
 }
+
+protocol FlyBehaviour {
+    func fly()
+}
+
+protocol QuackBehaviour {
+    func quack()
+}
