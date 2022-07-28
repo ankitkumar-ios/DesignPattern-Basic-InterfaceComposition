@@ -14,6 +14,10 @@
 		EFC1D0D228923FC700E026C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC1D0D128923FC700E026C0 /* Assets.xcassets */; };
 		EFC1D0D528923FC700E026C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC1D0D328923FC700E026C0 /* LaunchScreen.storyboard */; };
 		EFC1D0DE2892401400E026C0 /* BaseDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC1D0DD2892401400E026C0 /* BaseDuck.swift */; };
+		EFF3416E28924DB600F5EB1B /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3416D28924DB600F5EB1B /* MallardDuck.swift */; };
+		EFF3417028924DBE00F5EB1B /* RedheadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3416F28924DBE00F5EB1B /* RedheadDuck.swift */; };
+		EFF3417228924DC700F5EB1B /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3417128924DC700F5EB1B /* RubberDuck.swift */; };
+		EFF3417428924DCE00F5EB1B /* DecoyDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF3417328924DCE00F5EB1B /* DecoyDuck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		EFC1D0D428923FC700E026C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC1D0D628923FC700E026C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC1D0DD2892401400E026C0 /* BaseDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDuck.swift; sourceTree = "<group>"; };
+		EFF3416D28924DB600F5EB1B /* MallardDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
+		EFF3416F28924DBE00F5EB1B /* RedheadDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedheadDuck.swift; sourceTree = "<group>"; };
+		EFF3417128924DC700F5EB1B /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
+		EFF3417328924DCE00F5EB1B /* DecoyDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoyDuck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				EFC1D0DD2892401400E026C0 /* BaseDuck.swift */,
+				EFF3417328924DCE00F5EB1B /* DecoyDuck.swift */,
+				EFF3417128924DC700F5EB1B /* RubberDuck.swift */,
+				EFF3416F28924DBE00F5EB1B /* RedheadDuck.swift */,
+				EFF3416D28924DB600F5EB1B /* MallardDuck.swift */,
 			);
 			path = Ducks;
 			sourceTree = "<group>";
@@ -150,8 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFC1D0CD28923FC600E026C0 /* ViewController.swift in Sources */,
+				EFF3416E28924DB600F5EB1B /* MallardDuck.swift in Sources */,
 				EFC1D0C928923FC600E026C0 /* AppDelegate.swift in Sources */,
 				EFC1D0CB28923FC600E026C0 /* SceneDelegate.swift in Sources */,
+				EFF3417028924DBE00F5EB1B /* RedheadDuck.swift in Sources */,
+				EFF3417428924DCE00F5EB1B /* DecoyDuck.swift in Sources */,
+				EFF3417228924DC700F5EB1B /* RubberDuck.swift in Sources */,
 				EFC1D0DE2892401400E026C0 /* BaseDuck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
