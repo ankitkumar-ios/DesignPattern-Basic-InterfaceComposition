@@ -31,32 +31,32 @@ extension ViewController {
         print("MallardDuck")
         duck.swim()
         duck.display()
-        duck.quack()
-        duck.fly()
+        duck.performQuack()
+        duck.performFly()
     }
     func createRedheadDuck() {
         let duck = RedheadDuck()
         print("RedheadDuck")
         duck.swim()
         duck.display()
-        duck.quack()
-        duck.fly()
+        duck.performQuack()
+        duck.performFly()
     }
     func createDecoyDuck() {
         let duck = DecoyDuck()
         print("DecoyDuck")
         duck.swim()
         duck.display()
-        duck.quack()
-        duck.fly()
+        duck.performQuack()
+        duck.performFly()
     }
     func createRubberDuck() {
         let duck = RubberDuck()
         print("RubberDuck")
         duck.swim()
         duck.display()
-        duck.quack()
-        duck.fly()
+        duck.performQuack()
+        duck.performFly()
     }
 }
 

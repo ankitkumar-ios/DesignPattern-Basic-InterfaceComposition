@@ -8,16 +8,19 @@
 import Foundation
 
 class BaseDuck: NSObject {
-    func quack() {
-        print("-- Quack")
-    }
+    var flyBehaviour: FlyBehaviour?
+    var quackBehaviour: QuackBehaviour?
+
     func display() {
         print("-- Display")
     }
     func swim() {
         print("-- Swim")
     }
-    func fly() {
-        print("-- Fly")
+    func performQuack() {
+        quackBehaviour?.quack()
+    }
+    func performFly() {
+        flyBehaviour?.fly()
     }
 }

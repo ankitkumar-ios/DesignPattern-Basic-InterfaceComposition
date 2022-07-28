@@ -8,16 +8,16 @@
 import Foundation
 
 class DecoyDuck: BaseDuck {
+    override init() {
+        super.init()
+        quackBehaviour = Quack()
+        flyBehaviour = FlyNoWay()
+    }
+
     override func display() {
         print(" - Decoy can display")
     }
     override func swim() {
         print(" - Decoy can swim")
-    }
-    override func quack() {
-        print(" - Decoy can quack")
-    }
-    override func fly() {
-        print(" - Decoy can't fly")
     }
 }

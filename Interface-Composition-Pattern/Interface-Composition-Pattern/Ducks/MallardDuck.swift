@@ -8,16 +8,16 @@
 import Foundation
 
 class MallardDuck: BaseDuck {
+    override init() {
+        super.init()
+        quackBehaviour = Quack()
+        flyBehaviour = FlyWithWings()
+    }
+
     override func display() {
         print(" - Mallard can display")
     }
     override func swim() {
         print(" - Mallard can swim")
-    }
-    override func quack() {
-        print(" - Mallard can quack")
-    }
-    override func fly() {
-        print(" - Mallard can fly")
     }
 }
