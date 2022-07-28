@@ -8,16 +8,16 @@
 import Foundation
 
 class RedheadDuck: BaseDuck {
-    override func quack() {
-        print("Redhead quack")
-    }
     override func display() {
-        print("Redhead display")
+        print(" - Redhead can display")
     }
     override func swim() {
-        print("Redhead swim")
+        print(" - Redhead can swim")
+    }
+    override func quack() {
+        print(" - Redhead can quack")
     }
     override func fly() {
-        print("Redhead fly")
+        print(" - Redhead can fly")
     }
 }

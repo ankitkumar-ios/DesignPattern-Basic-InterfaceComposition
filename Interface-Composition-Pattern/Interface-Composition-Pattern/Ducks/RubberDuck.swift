@@ -8,16 +8,16 @@
 import Foundation
 
 class RubberDuck: BaseDuck {
-    override func quack() {
-        print("Rubber quack")
-    }
     override func display() {
-        print("Rubber display")
+        print(" - Rubber can display")
     }
     override func swim() {
-        print("Rubber swim")
+        print(" - Rubber can swim")
+    }
+    override func quack() {
+        print(" - Rubber can't quack")
     }
     override func fly() {
-        print("Rubber fly")
+        print(" - Rubber can't fly")
     }
 }
