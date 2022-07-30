@@ -11,6 +11,14 @@ class BaseDuck: NSObject {
     var flyBehaviour: FlyBehaviour?
     var quackBehaviour: QuackBehaviour?
 
+    func setFlyBehaviour(fly: FlyBehaviour) {
+        flyBehaviour = fly
+    }
+
+    func setQuackBehaviour(quack: QuackBehaviour) {
+        quackBehaviour = quack
+    }
+
     func display() {
         print("-- Display")
     }

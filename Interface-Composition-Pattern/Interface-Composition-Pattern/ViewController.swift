@@ -49,6 +49,9 @@ extension ViewController {
         duck.display()
         duck.performQuack()
         duck.performFly()
+        print(" - new wings")
+        duck.setFlyBehaviour(fly: FlyWithWings())
+        duck.performFly()
     }
     func createRubberDuck() {
         let duck = RubberDuck()
@@ -57,6 +60,9 @@ extension ViewController {
         duck.display()
         duck.performQuack()
         duck.performFly()
+        print(" - new sound")
+        duck.setQuackBehaviour(quack: Quack())
+        duck.performQuack()
     }
 }
 
