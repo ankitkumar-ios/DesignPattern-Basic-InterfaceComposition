@@ -13,7 +13,7 @@ protocol FlyBehaviour {
 
 class FlyWithWings: FlyBehaviour {
     func fly() {
-        print("fly with wings")
+        print(" - fly with wings")
     }
 }
 

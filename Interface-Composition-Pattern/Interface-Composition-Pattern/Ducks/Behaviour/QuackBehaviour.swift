@@ -13,18 +13,18 @@ protocol QuackBehaviour {
 
 class Quack: QuackBehaviour {
     func quack() {
-        print("- Quack")
+        print(" - Quack")
     }
 }
 
 class Squeak: QuackBehaviour {
     func quack() {
-        print("- Squeak")
+        print(" - Squeak")
     }
 }
 
 class MuteQuack: QuackBehaviour {
     func quack() {
-        print("- Mute Quack")
+        print(" - Mute Quack")
     }
 }
